@@ -1,0 +1,390 @@
+#flavoursContainer {
+    position: absolute;
+    bottom: -15%;
+}
+
+hr {
+    border-top: 0.1em solid var(--white);
+    max-width: 500px;
+    margin-left: 0;
+    margin-bottom: 25px;
+}
+
+.footer {
+    background-color: #fff;
+}
+
+.color-yellow {
+    background-color: var(--yellow);
+    color: var(--dark);
+}
+
+.color-blue {
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+.color-green {
+    background-color: var(--green);
+    color: var(--white);
+}
+
+.color-red {
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.color-purple {
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+.color-black {
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.color-white {
+    background-color: var(--white);
+    color: var(--dark);
+}
+
+.box {
+    width: 90%;
+    height: 550px;
+    position: relative;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+}
+
+
+.contextCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.footerSocialIcon {
+    filter: invert(100%);
+}
+
+.socialIcon img{
+    width: 2.5em;
+}
+
+.socialIcon:hover {
+    filter: invert(20%);
+    position: relative;
+    bottom: 5px;
+}
+
+.socialContextHolder {
+    padding-bottom: 12%;
+    padding-top: 12%;
+    min-height: 380px;
+    /*padding-top: 10%;*/
+    /*width: 90%;*/
+}
+
+
+.amazingGuyContextHolder {
+    top: 10%;
+    left: 10%;
+    position: relative;
+    width: 90%;
+}
+
+.amazingGuyBox {
+    min-height: 800px;
+}
+
+.projectSubTitle {
+    font-size: 1.25em;
+}
+
+.projectContextHolder {
+    top: 20%;
+    left: 20%;
+    position: relative;
+    min-height: 380px;
+    width: 50%;
+}
+
+.musicContextHolder {
+    top: 20%;
+    left: 15%;
+    position: relative;
+    min-height: 380px;
+    width: 50%;
+}
+
+.context {
+    min-width: 400px;
+    max-width: 550px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font: 1em Medium, sans-serif;
+}
+
+.project {
+    position: relative;
+    color: var(--white);
+    margin: 3rem;
+}
+
+.projectFullWidth {
+    position: relative;
+    color: var(--white);
+    margin: 3rem 0;
+}
+
+.containerHeight {
+    padding-top: 100%;
+}
+
+.projectImg {
+    width: 105%;
+    bottom: -10%;
+    left: -5%;
+    position: absolute;
+}
+
+.educationImg {
+    width: 100%;
+    top: -10%;
+    left: 10%;
+    position: absolute;
+    /*width: 100%;*/
+    /*bottom: -10%;*/
+    /*left: 10%;*/
+    /*position: absolute;*/
+}
+
+
+@media screen and (min-width: 1992px) {
+    .containerHeight {
+        padding-top: 0;
+    }
+
+    .projectImg {
+        width: 50%;
+        position: absolute;
+        top: -20%;
+        left: 10%;
+    }
+
+    .educationImg {
+        width: 60%;
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+.projectTitle {
+    font: 2.5em Bold, sans-serif;
+}
+
+.wideProjectTitle {
+    font: 3em Bold, sans-serif;
+}
+
+.roundButton {
+    display: block;
+    font: 1em Bold, sans-serif;
+    cursor: pointer;
+    background-color: var(--dark);
+    color: var(--white);
+    text-align: center;
+    padding: 5px 80px;
+    border-radius: 25px;
+}
+
+.optionButton {
+    cursor: pointer;
+    font: 1.5em Bold, sans-serif;
+    text-align: center;
+    padding: 25px;
+
+    /*margin: 20px;*/
+}
+
+.optionButton:hover {
+    position: relative;
+    bottom: 5px;
+}
+
+.underlineButton {
+    cursor: pointer;
+    color: var(--white);
+    text-decoration: underline;
+    z-index: 10;
+}
+
+.roundBorderButton {
+    cursor: pointer;
+    border: 0.12em solid var(--white);
+    color: var(--white);
+    width: 250px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 25px;
+    position: absolute;
+    z-index: 2;
+}
+
+.musicImg {
+    width: 100%;
+    bottom: 0;
+}
+
+.amazingGuyImg {
+    width: 80%;
+    position: absolute;
+    display: inline;
+    bottom: 0;
+}
+
+
+@media screen and (min-width: 1700px) {
+    .amazingGuyImg {
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .amazingGuyImg {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1090px) {
+    .roundBorderButton {
+        z-index: 0;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .musicContextHolder {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .wideProjectTitle{
+        font: 2.4em Bold, sans-serif;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    .socialIcons.contextCenter {
+        display: block;
+
+        height: 100%;
+    }
+
+    .socialIcons {
+        text-align: center;
+    }
+
+    .context {
+        min-width: auto;
+        max-width: 100%;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font: 1em Medium, sans-serif;
+    }
+
+    .project {
+        margin: 0;
+    }
+
+    .contextCenter {
+        display: grid;
+        text-align: center;
+    }
+
+    .contextCenter {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    #flavoursContainer {
+        position: relative;
+        padding: 10px;
+    }
+
+    .projectContextHolder {
+        margin-left: 15px;
+        margin-right: 15px;
+        width: auto;
+        left: 0;
+    }
+
+    .context {
+        min-width: 0;
+        max-width: none;
+        width: auto;
+    }
+
+    .roundButton {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .musicContextHolder {
+        margin-left: 15px;
+        margin-right: 15px;
+        width: auto;
+        left: 0;
+    }
+
+    .wideProjectTitle {
+        font: 2.2em Bold, sans-serif;
+    }
+
+    .amazingGuyContextHolder {
+        top: 10%;
+        left: 5%;
+        position: relative;
+        width: 90%;
+    }
+
+    .workCardContainer {
+        padding-left: 0.5em;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .containerHeight {
+        padding-top: 0;
+    }
+
+    .projectImg {
+        width: 80%;
+        position: relative;
+        top: 45%;
+        left: 48%;
+        transform: translate(-50%, -10%);
+    }
+
+    .educationImg {
+        width: 75%;
+        position: relative;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -15%);
+    }
+
+    .amazingGuyImg {
+        /*height: 100%;*/
+        position: relative;
+        padding-top: 80px;
+    }
+}
