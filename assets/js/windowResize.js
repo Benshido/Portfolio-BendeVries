@@ -36,24 +36,20 @@ document.getElementById('school').addEventListener('click', () => {
     let ShowItem = "school";
     filterWorkOn(ShowItem);
 });
-document.getElementById('photography').addEventListener('click', () => {
-    let ShowItem = "photography";
-    filterWorkOn(ShowItem);
-});
-document.getElementById('personal').addEventListener('click', () => {
-    let ShowItem = "personal";
-    filterWorkOn(ShowItem);
-});
-document.getElementById('projects').addEventListener('click', () => {
-    let ShowItem = "projects";
-    filterWorkOn(ShowItem);
-});
 document.getElementById('internships').addEventListener('click', () => {
     let ShowItem = "internships";
     filterWorkOn(ShowItem);
 });
-document.getElementById('volunteer').addEventListener('click', () => {
-    let ShowItem = "volunteer";
+document.getElementById('games').addEventListener('click', () => {
+    let ShowItem = "games";
+    filterWorkOn(ShowItem);
+});
+document.getElementById('software').addEventListener('click', () => {
+    let ShowItem = "software";
+    filterWorkOn(ShowItem);
+});
+document.getElementById('websites').addEventListener('click', () => {
+    let ShowItem = "websites";
     filterWorkOn(ShowItem);
 });
 
